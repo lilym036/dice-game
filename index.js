@@ -1,13 +1,15 @@
 const randomNumber1= Math.ceil(Math.random() * 6);
 console.log(randomNumber1);
-// randomImage= `dice${randomNumber1}.png`
-// console.log(randomImage);
+imgSrc= `./images/dice${randomNumber1}.png`
+console.log(imgSrc);
 
-document.querySelector(".img1").setAttribute("src", "./images/dice5.png");
-document.querySelector(".img2").setAttribute("src", "./images/dice3.png");
 
 const img1= document.querySelector(".img1");
 const img2= document.querySelector(".img2");
+
+document.querySelector(".img1").setAttribute("src", imgSrc);
+document.querySelector(".img2").setAttribute("src", "./images/dice3.png");
+
 
 function winOrLoose() {
 if (img1 > img2) {
