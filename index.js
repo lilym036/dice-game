@@ -14,9 +14,9 @@ img2.setAttribute("src", imgSrc2);
 
 const winOrLoose= () => {
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML= "Player 1 wins"
+    document.querySelector("h1").innerHTML= "Player 1 wins 🎉"
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML= "Player 2 Wins!"
+    document.querySelector("h1").innerHTML= "Player 2 Wins! 🎉"
 } else {
     document.querySelector("h1").innerHTML= "It's a tie!"
 }
