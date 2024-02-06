@@ -1,14 +1,18 @@
 const randomNumber1= Math.ceil(Math.random() * 6);
+const randomNumber2= Math.ceil(Math.random() * 6);
 console.log(randomNumber1);
-imgSrc= `./images/dice${randomNumber1}.png`
-console.log(imgSrc);
+console.log(randomNumber2);
+imgSrc1= `./images/dice${randomNumber1}.png`
+imgSrc2= `./images/dice${randomNumber2}.png`
+console.log(imgSrc1);
+console.log(imgSrc2)
 
 
 const img1= document.querySelector(".img1");
 const img2= document.querySelector(".img2");
 
-document.querySelector(".img1").setAttribute("src", imgSrc);
-document.querySelector(".img2").setAttribute("src", "./images/dice3.png");
+img1.setAttribute("src", imgSrc1);
+img2.setAttribute("src", imgSrc2);
 
 
 function winOrLoose() {
