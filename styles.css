@@ -38,7 +38,7 @@ p {
   border-radius: 4px;
   margin-top: 20px;
   background-color: #D14D72;
-  border: 2px solid #D14D72;
+  border: none;
   color: white;
   padding: 12px 14px;
 }
