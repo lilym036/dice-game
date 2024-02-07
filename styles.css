@@ -16,13 +16,14 @@
 
 body {
   background-color: #FCC8D1;
+  /* height: 100vh; */
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7rem;
+  font-size: 6rem;
   color: #D14D72;
 }
 
@@ -30,6 +31,16 @@ p {
   font-size: 3rem;
   color: #D14D72;
   font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+  font-size: 2rem;
+  border-radius: 4px;
+  margin-top: 20px;
+  background-color: #D14D72;
+  border: 2px solid #D14D72;
+  color: white;
+  padding: 12px 14px;
 }
 
 img {
