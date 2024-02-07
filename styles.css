@@ -1,18 +1,16 @@
 .container {
-  /* width: 70%; */
+  width: 70%;
   margin: auto;
   text-align: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
-
+.dice-container {
+  display: flex;
+}
 
 .dice {
   text-align: center;
-  /* display: inline-block; */
+  display: inline-block;
 
 }
 
